@@ -26,7 +26,6 @@ type
     btBtnSignup: TBitBtn;
     btBtnLogin: TBitBtn;
     procedure FormCreate(Sender: TObject);
-    procedure btBtnLoginClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -41,12 +40,6 @@ var
 implementation
 
 {$R *.dfm}
-
-procedure TfrmMain.btBtnLoginClick(Sender: TObject);
-begin
-  //when the login button is clicked, show the second form
-  frmNavigation.ShowModal;
-end;
 
 procedure TfrmMain.FormCreate(Sender: TObject);
 begin

@@ -4,11 +4,14 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls;
+  Dialogs, StdCtrls, ExtCtrls;
 
 type
   TForm1 = class(TForm)
-    procedure btn1Click(Sender: TObject);
+    pnlHeading: TPanel;
+    pnlLogin: TPanel;
+    pnlSignUp: TPanel;
+    procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
   public
@@ -24,9 +27,13 @@ implementation
 
 {$R *.dfm}
 
-procedure TForm1.btn1Click(Sender: TObject);
+procedure TForm1.FormCreate(Sender: TObject);
 begin
-  btn1
+
+  //set width and heigh of screen
+  Self.Width := 1000;
+  Self.Height := 600;
+
 end;
 
 end.

@@ -604,7 +604,6 @@ object frmMain: TfrmMain
       ParentDoubleBuffered = False
       ParentFont = False
       TabOrder = 2
-      OnClick = btBtnLoginClick
     end
   end
   object pnlSignUp: TPanel

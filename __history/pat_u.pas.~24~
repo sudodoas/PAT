@@ -4,10 +4,14 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls;
+  Dialogs, StdCtrls, ExtCtrls;
 
 type
   TForm1 = class(TForm)
+    pnlHeading: TPanel;
+    pnlLogin: TPanel;
+    pnlSignUp: TPanel;
+    lblLogin: TLabel;
     procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
@@ -29,7 +33,7 @@ begin
 
   //set width and heigh of screen
   Self.Width := 1000;
-  Self.Height := 800;
+  Self.Height := 600;
 
 end;
 

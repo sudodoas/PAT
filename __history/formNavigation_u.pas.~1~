@@ -1,10 +1,10 @@
-unit pat_u;
+unit formNavigation_u;
 
 interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls;
+  Dialogs;
 
 type
   TForm1 = class(TForm)
@@ -16,8 +16,6 @@ type
 
 var
   Form1: TForm1;
-  iTotal, iNext: integer;
-
 
 implementation
 

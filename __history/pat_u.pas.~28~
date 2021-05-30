@@ -4,10 +4,25 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls;
+  Dialogs, StdCtrls, ExtCtrls;
 
 type
   TForm1 = class(TForm)
+    pnlHeading: TPanel;
+    pnlLogin: TPanel;
+    pnlSignUp: TPanel;
+    lblSignUp: TLabel;
+    lblLogin: TLabel;
+    lblUsernameLogin: TLabel;
+    lblPasswordLogin: TLabel;
+    edtUsernameLogin: TEdit;
+    edtPasswordLogin: TEdit;
+    lblUsernameSignup: TLabel;
+    edtUsernameSignup: TEdit;
+    edtPasswordSignup: TEdit;
+    lblPasswordSignup: TLabel;
+    edtEmailSignup: TEdit;
+    lblEmailSignup: TLabel;
     procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
