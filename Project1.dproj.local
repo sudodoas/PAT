@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/04/24 19:41:50.225.pas,C:\Users\doass\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\doass\Documents\pat\Unit1.pas</Transaction>
+    <Transaction>2021/04/24 19:41:50.225.dfm,C:\Users\doass\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\doass\Documents\pat\Unit1.dfm</Transaction>
+    <Transaction>2021/04/24 19:41:52.859.dproj,C:\Users\doass\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\doass\Documents\pat\Project1.dproj</Transaction>
+    <Transaction>2021/04/24 19:42:41.540.pas,C:\Users\doass\Documents\pat\Unit1.pas=C:\Users\doass\Documents\pat\pat_u.pas</Transaction>
+    <Transaction>2021/04/24 19:42:41.540.dfm,C:\Users\doass\Documents\pat\Unit1.dfm=C:\Users\doass\Documents\pat\pat_u.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
