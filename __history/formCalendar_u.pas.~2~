@@ -1,0 +1,24 @@
+unit formCalendar_u;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs;
+
+type
+  TCalendar = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Calendar: TCalendar;
+
+implementation
+
+{$R *.dfm}
+
+end.

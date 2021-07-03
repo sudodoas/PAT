@@ -11,7 +11,6 @@ object frmNavigation: TfrmNavigation
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
-  Position = poDesigned
   PixelsPerInch = 96
   TextHeight = 13
   object bntCalendar: TButton
@@ -27,7 +26,6 @@ object frmNavigation: TfrmNavigation
     Font.Style = []
     ParentFont = False
     TabOrder = 0
-    OnClick = bntCalendarClick
   end
   object btnNotifications: TButton
     Left = 0
@@ -57,7 +55,6 @@ object frmNavigation: TfrmNavigation
     Font.Style = []
     ParentFont = False
     TabOrder = 2
-    OnClick = btnEnterMeetingClick
   end
   object btnScanQR: TButton
     Left = 352

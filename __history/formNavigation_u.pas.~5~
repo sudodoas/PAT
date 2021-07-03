@@ -14,7 +14,6 @@ type
     btnScanQR: TButton;
     pnlHeading: TPanel;
     procedure bntCalendarClick(Sender: TObject);
-    procedure btnEnterMeetingClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -32,12 +31,6 @@ procedure TfrmNavigation.bntCalendarClick(Sender: TObject);
 begin
   //when the calendar button is clicked, open the calendar
   Calendar.ShowModal;
-end;
-
-procedure TfrmNavigation.btnEnterMeetingClick(Sender: TObject);
-begin
-  //when the enter_meeting button is pressed, open the QR code form.
-  formQR.ShowModal;
 end;
 
 end.

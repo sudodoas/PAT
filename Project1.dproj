@@ -44,7 +44,16 @@
 				<MainSource>MainSource</MainSource>
 			</DelphiCompile>
 			<DCCReference Include="pat_u.pas">
-				<Form>Form1</Form>
+				<Form>frmMain</Form>
+			</DCCReference>
+			<DCCReference Include="formNavigation_u.pas">
+				<Form>frmNavigation</Form>
+			</DCCReference>
+			<DCCReference Include="formQR_u.pas">
+				<Form>formQR</Form>
+			</DCCReference>
+			<DCCReference Include="formCalendar_u.pas">
+				<Form>Calendar</Form>
 			</DCCReference>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>

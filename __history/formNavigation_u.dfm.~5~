@@ -57,7 +57,6 @@ object frmNavigation: TfrmNavigation
     Font.Style = []
     ParentFont = False
     TabOrder = 2
-    OnClick = btnEnterMeetingClick
   end
   object btnScanQR: TButton
     Left = 352

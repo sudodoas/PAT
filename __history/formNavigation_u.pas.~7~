@@ -36,8 +36,8 @@ end;
 
 procedure TfrmNavigation.btnEnterMeetingClick(Sender: TObject);
 begin
-  //when the enter_meeting button is pressed, open the QR code form.
-  formQR.ShowModal;
+  //when the enter meeting button is pressed, open the QR code form.
+
 end;
 
 end.

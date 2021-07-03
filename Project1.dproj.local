@@ -6,5 +6,11 @@
     <Transaction>2021/04/24 19:41:52.859.dproj,C:\Users\doass\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\doass\Documents\pat\Project1.dproj</Transaction>
     <Transaction>2021/04/24 19:42:41.540.pas,C:\Users\doass\Documents\pat\Unit1.pas=C:\Users\doass\Documents\pat\pat_u.pas</Transaction>
     <Transaction>2021/04/24 19:42:41.540.dfm,C:\Users\doass\Documents\pat\Unit1.dfm=C:\Users\doass\Documents\pat\pat_u.dfm</Transaction>
+    <Transaction>2021/05/30 14:06:43.247.pas,C:\Users\doass\Documents\pat\Unit1.pas=C:\Users\doass\Documents\pat\formNavigation_u.pas</Transaction>
+    <Transaction>2021/05/30 14:06:43.259.dfm,C:\Users\doass\Documents\pat\Unit1.dfm=C:\Users\doass\Documents\pat\formNavigation_u.dfm</Transaction>
+    <Transaction>2021/05/31 13:54:02.403.pas,C:\Users\doass\Documents\pat\Unit1.pas=C:\Users\doass\Documents\pat\formQR_u.pas</Transaction>
+    <Transaction>2021/05/31 13:54:02.414.dfm,C:\Users\doass\Documents\pat\Unit1.dfm=C:\Users\doass\Documents\pat\formQR_u.dfm</Transaction>
+    <Transaction>2021/05/31 14:47:34.352.pas,C:\Users\doass\Documents\pat\Unit1.pas=C:\Users\doass\Documents\pat\formCalendar_u.pas</Transaction>
+    <Transaction>2021/05/31 14:47:34.352.dfm,C:\Users\doass\Documents\pat\Unit1.dfm=C:\Users\doass\Documents\pat\formCalendar_u.dfm</Transaction>
   </Transactions>
 </BorlandProject>
